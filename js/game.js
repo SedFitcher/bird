@@ -25,7 +25,7 @@ document.addEventListener("keydown", moveUp); //отслеживание дей�
 
 function moveUp() {
     yPos -= 30;
-    fly.play();
+    //fly.play();
 };
 
 var pipe = []; // Создание блоков
@@ -65,7 +65,7 @@ function draw() {
 
         if(pipe[i].x == 5) {
             score++;
-           score.play();
+           //score.play();
         }
      
         // if (pipe.length > 2){
